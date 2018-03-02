@@ -4,14 +4,16 @@ import { HttpClient } from '@angular/common/http';
 @Injectable()
 export class VcenterService {
 
-  private AllvCentersJsonUrl = '../assets/data/vcenters.json'
-
-
   constructor(private http: HttpClient) { }
 
-
   getAllvCenters() {
-    return this.http.get(this.AllvCentersJsonUrl)
+    let AllvCentersJsonUrl = '../assets/data/vcenters.json'
+    return this.http.get(AllvCentersJsonUrl)
+  }
+
+  getvCenter(name: string) {
+    let vCenterUrl = '../assets/data/' + name + '/RVTools_tabvCluster.json'
+    return this.http.get(vCenterUrl)
   }
 
 }

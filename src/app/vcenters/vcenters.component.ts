@@ -22,4 +22,5 @@ export class VcentersComponent implements OnInit {
     this.VcenterService.getAllvCenters()
       .subscribe(data => { this.AllvCenters = data })
   }
+
 }
