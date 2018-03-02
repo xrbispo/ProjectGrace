@@ -1,0 +1,19 @@
+a {
+  text-decoration: none;  
+}
+
+a:hover {
+ 
+ background-color: red;
+ 
+}
+
+
+a:link , a:visited {
+    color: white;
+}
+
+a:active {
+    background-color: darkred;
+}
+

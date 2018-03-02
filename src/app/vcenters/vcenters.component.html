@@ -1,0 +1,26 @@
+<section class="container-fluid">
+  <div class="row">
+    <div *ngFor="let item of AllvCenters" [class.selected]='item === selectedItem' (click)='onSelected(item)' class="card text-white bg-success m-3 border-dark" style="width: 21rem;">
+      <a routerLink="{{item.name}}">
+        <h6 class="card-header">
+          {{item.description}}
+          <span class="float-right badge badge-pill badge-light">{{item.env}}</span>
+        </h6>
+        <div class="card-body text-dark bg-light">
+          <div class="card-title">
+            <img width="20" alt="esxi-logo" src="..\assets\img\esxi-logo.png">
+            <strong>{{item.name}}</strong>
+          </div>
+          <div class="card-title">
+            <img width="20" alt="network-logo" src="..\assets\img\network-logo.png">
+            <strong>{{item.ip}}</strong>
+          </div>
+          <div class="card-title">
+            <img width="20" alt="azuread-logo" src="..\assets\img\azuread-logo.png">
+            <strong>{{item.domain}}</strong>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>

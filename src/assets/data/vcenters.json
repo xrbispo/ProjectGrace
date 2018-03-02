@@ -1,0 +1,100 @@
+[
+{
+ "name":"BR1WSVIVCVP01",
+ "ip":"172.30.29.11",
+ "description":"Servicos Internos",
+ "domain":"TDATAGER.BR",
+ "env":"PROD"
+},
+{
+ "name":"BR1WSVIVCVH01",
+ "ip":"172.30.32.11",
+ "description":"Servicos Internos",
+ "domain":"TDATAGER.BR",
+ "env":"HOM" 
+},
+{
+ "name":"BR1WSVIVCVD01",
+ "ip":"172.30.32.31",
+ "description":"Servicos Internos",
+ "domain":"TDATAGER.BR",
+ "env":"DEV"
+},
+{
+ "name":"W2K8HOSTVCGER01",
+ "ip":"172.28.0.198",
+ "description":"Remedy 8",
+ "domain":"TELEFONICADC.BR",
+ "env":"PROD"
+},
+{
+ "name":"W2K8DCSOCVC01",
+ "ip":"172.31.61.8",
+ "description":"SOC",
+ "domain":"TELEFONICADC.BR",
+ "env":"PROD"
+},
+{
+ "name":"W2K8HVVCPRD01",
+ "ip":"172.28.0.201",
+ "description":"VCFlex",
+ "domain":"TELEFONICADC.BR",
+ "env":"PROD"
+},
+{
+ "name":"BR1WVDCVCRP01",
+ "ip":"172.28.42.27",
+ "description":"VCP Resources",
+ "domain":"VDC-BR.CLOUD.TELEFONICA",
+ "env":"PROD"
+},
+{
+ "name":"BR1WVDCVCMP01",
+ "ip":"172.28.42.26",
+ "description":"VCP Management",
+ "domain":"VDC-BR.CLOUD.TELEFONICA",
+ "env":"PROD"
+},
+{
+ "name":"BR1WVDCVCRH01",
+ "ip":"172.28.42.155",
+ "description":"VCP Resources",
+ "domain":"VDCHOM-BR.CLOUD.TELEFONICA",
+ "env":"HOM"
+},
+{
+ "name":"BR1WVDCVCMH01",
+ "ip":"172.28.42.154",
+ "description":"VCP Management",
+ "domain":"VDCHOM-BR.CLOUD.TELEFONICA",
+ "env":"HOM"
+},
+{
+ "name":"BR1LVCPVCSRVD01",
+ "ip":"172.28.39.137",
+ "description":"VCP Dev/Lab",
+ "domain":"VDCDEV-BR.CLOUD.TELEFONICA",
+ "env":"DEV"
+},
+{
+ "name":"BR1WADNVCVP01",
+ "ip":"172.28.52.204",
+ "description":"Cliente ADNetworks",
+ "domain":"ADNETWORKS.TELEFONICA.BR",
+ "env":"PROD"
+},
+{
+ "name":"BR1WINTVCVP01",
+ "ip":"172.28.53.211",
+ "description":"Cliente Intec",
+ "domain":"INTEC.BR",
+ "env":"PROD"
+},
+{
+ "name":"FOZ-HVC003-DC",
+ "ip":"10.156.5.180",
+ "description":"Cliente BRK",
+ "domain":"AMBIENTAL.CORP",
+ "env":"PROD"
+}
+]
